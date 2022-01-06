@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lab1"
+    app:startDestination="@id/fragment_bai1">
+
+    <fragment
+        android:id="@+id/fragment_bai1"
+        android:name="com.example.lab1_mob201.Fragment.fragment_bai1"
+        android:label="fragment_bai1"
+        tools:layout="@layout/fragment_bai1" />
+</navigation>
